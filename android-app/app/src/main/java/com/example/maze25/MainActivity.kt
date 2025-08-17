@@ -11,7 +11,6 @@ import com.example.maze25.ui.MazeView
 class MainActivity : AppCompatActivity() {
 	private lateinit var mazeView: MazeView
 	private var paused: Boolean = false
-
 	private lateinit var soundPool: SoundPool
 	private var beepMove: Int = 0
 	private var beepWin: Int = 0
